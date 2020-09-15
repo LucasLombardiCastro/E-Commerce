@@ -1,0 +1,95 @@
+
+.menu-pedidos{
+    margin: 10% 8% 10% 7%;
+    width: 86%;
+    background-color: #f1f1f1;
+    opacity: 1;
+    height: auto;
+    padding-bottom: 5px;
+  }
+
+.texto-pedidos{
+    color: #000000;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.texto-pedidos-adicional{
+    color: #000000;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33%;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    text-align: center;
+    background-color: #000000;
+    max-width: 300px;
+    margin: 20px auto;
+    border-color: rgb(151, 151, 151);
+    
+  }
+
+  .card-padding{
+      background-color: #c4c4c4; 
+  }
+
+
+.icon{
+    position: absolute;
+    font-size:140px;
+    color:rgb(255, 238, 0);
+    margin-top: 12%;
+    left: 19%;
+    opacity:0;
+  }
+
+
+.img-card1{
+  transition: opacity 1s;
+}
+
+.img-card1:hover{
+  opacity: 0.4;
+}
+
+.noopacity{
+  opacity: 1;
+}
+
+.opacity{
+  opacity: 0.4;
+}
+
+
+  
